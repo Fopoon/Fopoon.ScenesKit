@@ -1,0 +1,6 @@
+{
+    "name": "Fopoon.ScenesKit.Editor",
+    "includePlatforms": [
+        "Editor"
+    ]
+}
