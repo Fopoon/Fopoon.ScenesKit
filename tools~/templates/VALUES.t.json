@@ -4,9 +4,11 @@
     "${license_file}": "LICENSE.md",
     "${license_type}": "Zlib-Libpng",
     "${merge_term}": "pull request",
+    "${package_name}": "com.fopoon.sceneskit",
     "${project_name}": "Fopoon.ScenesKit",
     "${readme_file}": "README.md",
     "${repo_host}": "github",
     "${repo_link}": "https://github.com/Fopoon/Fopoon.ScenesKit",
+    "${unity_version}": "2019.4",
     "${version}": "1.0.2"
 }

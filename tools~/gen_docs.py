@@ -17,7 +17,7 @@ def get_text(
     sb = StringBuilder()
 
     # Add a timestamp when the template is a markdown file.
-    if template_name.casefold().endswith(".md"):
+    if template_name.casefold().endswith(".tmd"):
         from scriptgen.templates.markdown import markdown_autogen
         sb.wb(markdown_autogen())
         sb.nl()
@@ -44,8 +44,10 @@ if __name__ == "__main__":
     json = loads(json_text)
 
     templates = {
-        # tools~/templates/README.t.md → README.md
-        (fdp / templates_dir_name / "README.t.md"): (fdp.parent / "README.md")
+        # tools~/templates/README.tmd → README.md
+        (fdp / templates_dir_name / "README.tmd"): (fdp.parent / "README.md"),
+        # tools~/templates/package.tjson → package.json
+        (fdp / templates_dir_name / "package.tjson"): (fdp.parent / "package.json")
     }
 
     for template_path, target_path in templates.items():

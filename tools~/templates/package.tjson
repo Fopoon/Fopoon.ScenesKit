@@ -1,0 +1,16 @@
+{
+    "name": "${package_name}",
+    "displayName": "${project_name}",
+    "version": "${version}",
+    "unity": "${unity_version}",
+    "description": "${description}",
+    "keywords": [
+      "unity",
+      "build",
+      "scenes"
+    ],
+    "author": {
+      "name": "Elmer Nocon",
+      "email": "elmernocon@gmail.com"
+    }
+}
