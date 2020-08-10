@@ -1,0 +1,12 @@
+{
+    "${changelog_file}": "CHANGELOG.md",
+    "${description}": "A compilation of scene-related scripts.",
+    "${license_file}": "LICENSE.md",
+    "${license_type}": "Zlib-Libpng",
+    "${merge_term}": "pull request",
+    "${project_name}": "Fopoon.ScenesKit",
+    "${readme_file}": "README.md",
+    "${repo_host}": "github",
+    "${repo_link}": "https://github.com/Fopoon/Fopoon.ScenesKit",
+    "${version}": "1.0.2"
+}

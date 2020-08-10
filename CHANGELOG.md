@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-08-10
+- Added tools~/gen_docs.py
+
 ## [1.0.1] - 2020-08-10
 - Fixed `Editor/ScenesInBuild/ScenesInBuildLoaderWindow.cs` project directory not getting initialized on startup.
 
