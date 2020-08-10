@@ -2,7 +2,7 @@
 
 [//]: # (badges)
 [![Repo](https://img.shields.io/badge/repo-github-brightgreen)](https://github.com/Fopoon/Fopoon.ScenesKit)
-[![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](https://github.com/Fopoon/Fopoon.ScenesKit/releases)
+[![Version](https://img.shields.io/badge/version-1-brightgreen.svg)](https://github.com/Fopoon/Fopoon.ScenesKit/releases)
 
 A compilation of scene-related scripts.
 

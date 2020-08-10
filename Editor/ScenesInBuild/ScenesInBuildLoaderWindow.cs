@@ -36,15 +36,14 @@ namespace Fopoon.ScenesKit.Editor
             priority = Constants.ORDER_BASE + 10)]
         private static void OpenWindow()
         {
-            var window = GetWindow<ScenesInBuildLoaderWindow>(false, MENU_LABEL);
-
-            window._projectDirectory = Path.GetDirectoryName(Application.dataPath);
+            GetWindow<ScenesInBuildLoaderWindow>(false, MENU_LABEL);
         }
 
         #endregion
 
         #region Fields
 
+        private bool _isInitialized;
         private string _projectDirectory;
         private string _searchTerm;
         private Vector2 _scrollPosition;
@@ -56,6 +55,9 @@ namespace Fopoon.ScenesKit.Editor
 
         private void OnGUI()
         {
+            if (!_isInitialized)
+                Initialize();
+
             var emptyScenesInBuild = EditorBuildSettings.scenes.Length == 0;
 
             if (emptyScenesInBuild)
@@ -212,6 +214,13 @@ namespace Fopoon.ScenesKit.Editor
                 _searchTerm = string.Empty;
 
             GUILayout.EndHorizontal();
+        }
+
+        private void Initialize()
+        {
+            _projectDirectory = Path.GetDirectoryName(Application.dataPath);
+
+            _isInitialized = true;
         }
 
         #endregion

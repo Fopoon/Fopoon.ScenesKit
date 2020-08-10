@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [1.0.1] - 2020-08-10
+- Fixed `Editor/ScenesInBuild/ScenesInBuildLoaderWindow.cs` project directory not getting initialized on startup.
+
 ## [1.0.0] - 2020-08-09
 
 - Added Editor/QuickPlay/QuickPlay.cs
